@@ -19,19 +19,19 @@ def handle(msg: Dict):
     command = string.replace(command, '@digiinforbot', '',1)
     print(command)
     if command == '/start':
-           bot.sendMessage(chat_id, "Olá, agora as coisas vao iniciar!")
+           bot.sendMessage(chat_id, "Olá, agora as coisas vão iniciar!")
     elif command == '/test':
            bot.sendMessage(chat_id, "Apenas teste!!!!")
     elif command == 'ola' or command ==  '/ola':
-           bot.sendMessage(chat_id, "Ola ,"+nome)
+           bot.sendMessage(chat_id, "Olá ,"+nome)
     elif command =='/help':
-          bot.sendMessage(chat_id, "chame ramon e pergunte. /start /tijolada /test /help")
+          bot.sendMessage(chat_id, "Chame ramon e pergunte. /start /tijolada /test /help")
     elif command == '/tijolada':
           bot.sendMessage(chat_id, "Tijolinho, peninha e gotinha!")
     elif command == '/juciano':
           bot.sendMessage(chat_id, "Eeeeeee. Bits e Bytes!")
     elif command == '/crianzap':
-          bot.sendMessage(chat_id, "Chupa meu pinto então...Seu VAGABUNDO.")
+          bot.sendMessage(chat_id, "Chupa meu p... então...Seu VAGABUNDO.")
     elif command == '/ain':
           bot.sendMessage(chat_id, "Ain pai para...")
     elif command == '/joaozin':
@@ -43,7 +43,7 @@ def handle(msg: Dict):
     elif command == 'rosinho' or command == '/rosinho':
           bot.sendMessage(chat_id, "https://i.pinimg.com/originals/c6/0b/37/c60b372f6981564d693be3f99da534c2.jpg")
     elif command == 'cafe' or command == '/cafe':
-          bot.sendMessage(chat_id, "EU QUERO CAFÉ")
+          bot.sendMessage(chat_id, "EU QUERO CAFÉ,ÉÉ")
     elif command == 'dadinho' or command == '/dadinho':
           bot.sendMessage(chat_id, "dadinho o caralho..meu nome agora e zé pequeno")
     elif command == 'taca' or command == '/taca':
